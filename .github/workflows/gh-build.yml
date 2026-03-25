@@ -3,6 +3,7 @@ name: WPP
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 env:
   DOTNET_VERSION: '9.0.x'
